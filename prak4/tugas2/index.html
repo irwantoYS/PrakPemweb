@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>praktikum keempat</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="banner">
+        <img src="profil.jpg" weidth="80%" height="80%" alt="" />
+        <div class="banner-text">
+          <h1>hallo bro, Saya <span>Irwanto Yezekiel</span></h1>
+          <p>Calon CEO</p>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/irwanto.yezekiel_s/"
+              >Instagram</a
+            >
+          </li>
+          <li>
+            <a href="mailto:irwanto.120140227@student.itera.ac.id">Email</a>
+          </li>
+          <li><a href="https://github.com/irwantoYS">Github</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h3 id="about"># Tentang saya</h3>
+    <div class="container-tentang">
+      <div class="left">
+        <p>
+          <img src="p.png" alt="alternatif teks" class="simbol-l" />
+          erkenalkan bro, saya Irwanto Yezekiel. Saya sedang menempuh pendidikan
+          S1 dengan program studi Teknik Informatika di Institut Teknologi
+          Sumatera. saya lagi belajar pemograman Web. belajar website sangat
+          menyenangkan. kita juga dapat menemukan hal yang baru dengan belajar
+          website. semoga saya dapat nilai A. Aamiin
+        </p>
+      </div>
+      <div class="right">
+        <iframe
+          width="520"
+          height="315"
+          src="https://youtube.com/embed/NBZ9Ro6UKV8"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <p>cara belajar html</p>
+      </div>
+    </div>
+    <h3 id="experience"># pengalaman kerja</h3>
+    <table border="1">
+      <thead>
+        <tr>
+          <th rowspan="2">#</th>
+          <th rowspan="2">POSISI</th>
+          <th rowspan="2">PERUSAHAAN</th>
+          <th colspan="2">WAKTU</th>
+        </tr>
+        <tr>
+          <th>MULAI</th>
+          <th>SELESAI</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td v-align="center">1</td>
+          <td>Staff Pengmas</td>
+          <td>HMIF</td>
+          <td>2022</td>
+          <td>2022</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>manager pertamina</td>
+          <td>Pertamina</td>
+          <td>2022</td>
+          <td>2023</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Staff Operasional</td>
+          <td>HMIF mengabdi</td>
+          <td>2022</td>
+          <td>2022</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>manager FIF GROUP</td>
+          <td>FIF GROUP</td>
+          <td>2022</td>
+          <td>2023</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="contact"># hubungi saya</h3>
+    <div class="hubungi">
+      <form>
+        <div class="nama">
+          <label>Nama </label>
+          <input type="text" id="fname" />
+        </div>
+        <div class="nonton">
+          <label for="pil">Sudah menonton film saya?</label>
+          <div>
+            <input type="radio" name="sudah" id="sudah" value="sudah" />
+            <label>Sudah</label>
+            <input type="radio" name="sudah" id="belum" value="belum" />
+            <label>Belum</label>
+          </div>
+        </div>
+        <div class="coba">
+          <label for="pil">Apa coba?</label>
+          <div>
+            <input type="checkbox" id="ini" />
+            <label>Ini</label>
+            <input type="checkbox" id="itu" />
+            <label>Itu</label>
+            <input type="checkbox" id="anu" />
+            <label>Anu</label>
+          </div>
+        </div>
+        <button class="submit" type="submit">KIRIM</button>
+      </form>
+    </div>
+
+    <center>
+      <p>Pilih tema (dark/light)!</p>
+      <label for="theme">Select theme: </label>
+      <button id="light" onclick="light()">Light</button>
+      <button id="dark" onclick="dark()">Dark</button>
+    </center>
+
+    <script src="javascript.js"></script>
+
+    <footer>
+      <p>this footer</p>
+    </footer>
+  </body>
+</html>
